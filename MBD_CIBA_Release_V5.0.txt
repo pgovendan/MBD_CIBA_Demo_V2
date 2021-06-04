@@ -1,0 +1,822 @@
+MBD_CIBA_Release_Milestone3_0
+
+  - MATLAB R2019b Compatibility Check done.
+  - xlswrite,xlsread,xlsinfo function replaced with R2019b compatible functions.
+  - Tested in Offshore Environment setup(Jenkins+GitHub_
+ 
+-----------------------------------------------------------------------------------------------
+
+From: P GOVENDAN P GOVENDAN <govendan.p@marelli.com> 
+Sent: Thursday, April 1, 2021 12:06 AM
+To: RENJITH VELIYATH レンジット ヴェリヤス <veliyath.renjith@marelli.com>
+Cc: JAYACHANDRAN SASIKUMAR じゃやちゃんどらん さしくまある <sasikumar.jayachandran@marelli.com>; RAJENDRAN MANIMEKALA ラジェンドラン マニメカラ <manimekala.rajendran@marelli.com>
+Subject: RE: MBD_CIBA_Release_V4.0
+
+Dear Renjith,
+
+MBD_CIBA testing with latest modifications is completed. Please note the latest project path below. 
+
+PTC Integrity Path:  
+PTC Path: /Test_Jenkins2/CECI_folder/Testing_AddFolder/Project.pj)
+
+Tool Chain Jenkins Job Path:
+https://jing.marelli.com/preprodjenkins/job/CECI_Job/job/MBD_CIBA_Demo_V4.0/
+
+Deploy Folder Path:(Deploy-PC)
+C:\\Deploy_Folder\\CECI_Folder
+
+This release includes the following SW activities,
+
+	MJ Feedback points are fixed.(Please refer list of observations in attached file “MBD_CIBA_P3_Activity_V1.9.xlsx-> CIBA_Observations.
+	Added model name in Email notifications completed.
+	Based on model complexity level duration of the test case generation will set automatically.
+	We tested 3 models Using Current SLDV options and its generating test cases without fail.
+	US->Uint16 parameter name change. Please refer observation sheet for more clarifications.
+	Operation Manual(CECI_LnT_CIBA_Operation Manual_V4.1.pptx)
+
+Note: Test report will be sent in tomorrow(01-04-2021) EOD IST.
+
+Please check and let me know any clarifications.
+
+Thanks and Regards,
+P.Govendan
+
+
+
+
+
+From: P GOVENDAN P GOVENDAN 
+Sent: Friday, February 5, 2021 10:37 AM
+To: RENJITH VELIYATH レンジット ヴェリヤス <veliyath.renjith@marelli.com>
+Cc: JAYACHANDRAN SASIKUMAR じゃやちゃんどらん さしくまある <sasikumar.jayachandran@marelli.com>; RAJENDRAN MANIMEKALA ラジェンドラン マニメカラ <manimekala.rajendran@marelli.com>
+Subject: RE: MBD_CIBA_Release_V3.0
+
+Dear Renjith,
+
+OK Understood. We will update user manual and send to your review on 2021-02-09 EOD IST.
+
+Thanks and Regards,
+P.Govendan
+
+
+From: RENJITH VELIYATH レンジット ヴェリヤス <veliyath.renjith@marelli.com> 
+Sent: Friday, February 5, 2021 9:23 AM
+To: P GOVENDAN P GOVENDAN <govendan.p@marelli.com>
+Cc: JAYACHANDRAN SASIKUMAR じゃやちゃんどらん さしくまある <sasikumar.jayachandran@marelli.com>; RAJENDRAN MANIMEKALA ラジェンドラン マニメカラ <manimekala.rajendran@marelli.com>
+Subject: RE: MBD_CIBA_Release_V3.0
+
+Dear Govendan,
+
+Thank you for the release.
+Could you share the updated usermanual ? Without that how customer can operate with new changes in procedure..
+Please ensure to release usermanual update along with releases.
+
+Best Regards,
+Renjith 
+
+From: P GOVENDAN P GOVENDAN <govendan.p@marelli.com> 
+Sent: Thursday, February 4, 2021 10:24 PM
+To: RENJITH VELIYATH レンジット ヴェリヤス <veliyath.renjith@marelli.com>
+Cc: JAYACHANDRAN SASIKUMAR じゃやちゃんどらん さしくまある <sasikumar.jayachandran@marelli.com>; RAJENDRAN MANIMEKALA ラジェンドラン マニメカラ <manimekala.rajendran@marelli.com>
+Subject: REG:MBD_CIBA_Release_V3.0
+
+Dear Renjith,
+
+MBD_CIBA testing with latest changes is completed. Please note the latest project path below. 
+
+PTC Integrity Path:  
+PTC Path: /Test_Jenkins2/CECI_folder/Testing_AddFolder/Project.pj)
+Jenkins Job Path:
+http://jpazvm19ebap50.calsonickansei.co.jp:8080/view/CECI_JOB/MBD_CIBA_MJ_Version3.0/
+Deploy Folder Path:(Deploy-PC)
+C:\\Deploy_Folder\\CECI_Folder
+
+This release includes the following SW packages,
+
+ > Multiple Models run with single folder .
+ > MATLAB M-scripts moved to common folder
+ > Multiple folder and multiple models run in single Jenkins build.
+ > Pipeline execution Re-structure – to generate JMAAB report.
+ > Test Report. PFA. 
+
+Password for test report is  CIBA
+
+Please check and let me know any clarifications.
+
+Thanks and Regards,
+P.Govendan
+
+
+From: RENJITH VELIYATH レンジット ヴェリヤス <veliyath.renjith@marelli.com> 
+Sent: Thursday, February 4, 2021 10:00 AM
+To: P GOVENDAN P GOVENDAN <govendan.p@marelli.com>
+Cc: JAYACHANDRAN SASIKUMAR じゃやちゃんどらん さしくまある <sasikumar.jayachandran@marelli.com>; RAJENDRAN MANIMEKALA ラジェンドラン マニメカラ <manimekala.rajendran@marelli.com>
+Subject: RE: MBD_CIBA_TestReport
+
+Hi Govendan,
+
+OK, good. 
+Please plan to update in the requirement section corresponding to test cases for which it is added.
+Give a requirement number and mention about the requirement which is asked by customer.
+This will help in traceability for them
+
+Best Regards,
+Renjith Veliyath (レンジ)
+内線: 6-24-20842, Desk : +81-48-661-3701
+E-mail: veliyath.renjith@marelli.com / URL: https://marelli.com
+
+
+From: P GOVENDAN P GOVENDAN <govendan.p@marelli.com> 
+Sent: Wednesday, February 3, 2021 11:10 PM
+To: RENJITH VELIYATH レンジット ヴェリヤス <veliyath.renjith@marelli.com>
+Cc: JAYACHANDRAN SASIKUMAR じゃやちゃんどらん さしくまある <sasikumar.jayachandran@marelli.com>; RAJENDRAN MANIMEKALA ラジェンドラン マニメカラ <manimekala.rajendran@marelli.com>
+Subject: REG:MBD_CIBA_TestReport
+
+Hi Renjith,
+
+I have attached the Test report for the below activities,
+1.	Multiple models run with single folder .
+2.	Common folders for M-scripts.
+3.	Run multiple changed folder models at one Jenkins build
+4.	Pipeline execution Re-structure as customer requirement to generate JMAAB report.
+
+Kindly let us know any clarifications. 
+
+Password is CIBA.
+
+
+Thanks and Regards,
+P.Govendan
+
+
+
+
+From: P GOVENDAN P GOVENDAN 
+Sent: Wednesday, February 3, 2021 12:16 PM
+To: RENJITH VELIYATH レンジット ヴェリヤス <veliyath.renjith@marelli.com>
+Cc: JAYACHANDRAN SASIKUMAR じゃやちゃんどらん さしくまある <sasikumar.jayachandran@marelli.com>; RAJENDRAN MANIMEKALA ラジェンドラン マニメカラ <manimekala.rajendran@marelli.com>
+Subject: RE: REG:WSR_Week-04_EES
+
+Hi Renjith,
+
+Test report Preparation is going on. I will send it by today EOD for your reference.
+
+Thanks,
+P.Govendan
+
+
+From: RENJITH VELIYATH レンジット ヴェリヤス <veliyath.renjith@marelli.com> 
+Sent: Wednesday, February 3, 2021 12:15 PM
+To: P GOVENDAN P GOVENDAN <govendan.p@marelli.com>
+Cc: JAYACHANDRAN SASIKUMAR じゃやちゃんどらん さしくまある <sasikumar.jayachandran@marelli.com>; RAJENDRAN MANIMEKALA ラジェンドラン マニメカラ <manimekala.rajendran@marelli.com>
+Subject: RE: REG:WSR_Week-04_EES
+Importance: High
+
+Hi Govendan,
+
+What`s the status of release ?
+The test result is preparing? Please share current version than waiting till release.
+
+Regards,
+Renjith 
+
+From: P GOVENDAN P GOVENDAN <govendan.p@marelli.com> 
+Sent: Saturday, January 30, 2021 12:32 AM
+To: RENJITH VELIYATH レンジット ヴェリヤス <veliyath.renjith@marelli.com>
+Cc: JAYACHANDRAN SASIKUMAR じゃやちゃんどらん さしくまある <sasikumar.jayachandran@marelli.com>; RAJENDRAN MANIMEKALA ラジェンドラン マニメカラ <manimekala.rajendran@marelli.com>; VIJAYAKUMAR PREMNATH ビジャヤクマール プレムナス <premnath.vijayakumar@marelli.com>
+Subject: RE: REG:WSR_Week-04_EES
+
+Hi Renjith,
+
+I have attached WSR for EES Week_04. PFA.
+Kindly let me know any clarifications.
+
+Thanks,
+P.Govendan
+
+
+From: P GOVENDAN P GOVENDAN <govendan.p@marelli.com> 
+Sent: Monday, January 25, 2021 11:05 AM
+To: RENJITH VELIYATH レンジット ヴェリヤス <veliyath.renjith@marelli.com>
+Cc: JAYACHANDRAN SASIKUMAR じゃやちゃんどらん さしくまある <sasikumar.jayachandran@marelli.com>; RAJENDRAN MANIMEKALA ラジェンドラン マニメカラ <manimekala.rajendran@marelli.com>; VIJAYAKUMAR PREMNATH ビジャヤクマール プレムナス <premnath.vijayakumar@marelli.com>
+Subject: REG:WSR_Week-03_EES
+
+Hi Renjith,
+
+I have attached WSR for EES Week_03. PFA.
+Kindly let me know any clarifications.
+
+Note:
+I have removed weekly status for previous year in embed excel file because it is taking too long time to save every time. Please use previous WSR for reference.
+
+
+Thank you. 
+ 
+Warm Regards,
+ 
+Govendan Perumal
+Specialist, E&E, 
+CECI-L&T (Calsonic Kansei Engineering Center India-L&T)-ODC, Chennai, India.
+Office : +91-44-6630-1560
+Mobile : +91-99417-10236
+
+
+________________________________________
+From: P GOVENDAN P GOVENDAN <govendan.p@marelli.com>
+Sent: 25 January 2021 10:36
+To: RENJITH VELIYATH レンジット ヴェリヤス <veliyath.renjith@marelli.com>
+Cc: JAYACHANDRAN SASIKUMAR じゃやちゃんどらん さしくまある <sasikumar.jayachandran@marelli.com>; RAJENDRAN MANIMEKALA ラジェンドラン マニメカラ <manimekala.rajendran@marelli.com>
+Subject: Re: Reg:Release_Plan 
+ 
+Hi Renjith,
+
+No. I will send ASAP now.
+
+
+Thank you. 
+ 
+Warm Regards,
+ 
+Govendan Perumal
+Specialist, E&E, 
+CECI-L&T (Calsonic Kansei Engineering Center India-L&T)-ODC, Chennai, India.
+Office : +91-44-6630-1560
+Mobile : +91-99417-10236
+
+________________________________________
+From: RENJITH VELIYATH レンジット ヴェリヤス <veliyath.renjith@marelli.com>
+Sent: 25 January 2021 6:50
+To: P GOVENDAN P GOVENDAN <govendan.p@marelli.com>
+Cc: JAYACHANDRAN SASIKUMAR じゃやちゃんどらん さしくまある <sasikumar.jayachandran@marelli.com>; RAJENDRAN MANIMEKALA ラジェンドラン マニメカラ <manimekala.rajendran@marelli.com>
+Subject: RE: Reg:Release_Plan 
+ 
+Hi Govendan,
+ 
+Ok.
+Did you send WSR?
+ 
+Regards,
+Renjith
+ 
+From: P GOVENDAN P GOVENDAN <govendan.p@marelli.com> 
+Sent: Friday, January 22, 2021 7:21 PM
+To: RENJITH VELIYATH レンジット ヴェリヤス <veliyath.renjith@marelli.com>
+Cc: JAYACHANDRAN SASIKUMAR じゃやちゃんどらん さしくまある <sasikumar.jayachandran@marelli.com>; RAJENDRAN MANIMEKALA ラジェンドラン マニメカラ <manimekala.rajendran@marelli.com>
+Subject: Re: Reg:Release_Plan
+ 
+Hi Renjith,
+ 
+Deployment issue resolved. Now we are testing with multiple scenarios.
+I will send WSR with updated schedule.
+ 
+ 
+Thank you. 
+ 
+Warm Regards,
+ 
+Govendan Perumal
+Specialist, E&E, 
+CECI-L&T (Calsonic Kansei Engineering Center India-L&T)-ODC, Chennai, India.
+Office : +91-44-6630-1560
+Mobile : +91-99417-10236
+ 
+ 
+________________________________________
+From: RENJITH VELIYATH レンジット ヴェリヤス <veliyath.renjith@marelli.com>
+Sent: 22 January 2021 14:55
+To: P GOVENDAN P GOVENDAN <govendan.p@marelli.com>
+Cc: JAYACHANDRAN SASIKUMAR じゃやちゃんどらん さしくまある <sasikumar.jayachandran@marelli.com>; RAJENDRAN MANIMEKALA ラジェンドラン マニメカラ <manimekala.rajendran@marelli.com>; Govendan Perumal <govendan.perumal@ltts.com>
+Subject: RE: Reg:Release_Plan 
+ 
+Hi Govendan,
+ 
+Mori-san last week told, Production models will not be shared at this moment.
+Whether deployment issue resolved, which you told on Wednesday ?
+ 
+I will discuss with this schedule.. Pls ensure it is also reflected in WSR. 
+ 
+Best Regards,
+Renjith Veliyath (レンジ)
+内線: 6-24-20842, Desk : +81-48-661-3701
+E-mail: veliyath.renjith@marelli.com / URL: https://marelli.com
+ 
+ 
+From: P GOVENDAN P GOVENDAN <govendan.p@marelli.com> 
+Sent: Friday, January 22, 2021 5:44 PM
+To: RENJITH VELIYATH レンジット ヴェリヤス <veliyath.renjith@marelli.com>
+Cc: JAYACHANDRAN SASIKUMAR じゃやちゃんどらん さしくまある <sasikumar.jayachandran@marelli.com>; RAJENDRAN MANIMEKALA ラジェンドラン マニメカラ <manimekala.rajendran@marelli.com>; Govendan Perumal <govendan.perumal@ltts.com>
+Subject: Re: Reg:Release_Plan
+ 
+Hi Renjith,
+ 
+I have attached updated schedule sheet. Please confirm with customer and let me know any clarifications.
+From previous schedule I have merged Milestone Release 1 & 2 and release for that is 29-Jan-2021.
+ 
+Also please confirm with customer from when customer will be use our scripts in real time applications.
+ 
+As we discussed earlier, please get production model to check with our scripts.
+ 
+Password will be sent in next mail
+ 
+Thank you. 
+ 
+Warm Regards,
+ 
+Govendan Perumal
+Specialist, E&E, 
+CECI-L&T (Calsonic Kansei Engineering Center India-L&T)-ODC, Chennai, India.
+Office : +91-44-6630-1560
+Mobile : +91-99417-10236
+ 
+ 
+________________________________________
+From: RENJITH VELIYATH レンジット ヴェリヤス <veliyath.renjith@marelli.com>
+Sent: 22 January 2021 13:36
+To: P GOVENDAN P GOVENDAN <govendan.p@marelli.com>
+Cc: JAYACHANDRAN SASIKUMAR じゃやちゃんどらん さしくまある <sasikumar.jayachandran@marelli.com>; RAJENDRAN MANIMEKALA ラジェンドラン マニメカラ <manimekala.rajendran@marelli.com>
+Subject: RE: Reg:Release_Plan 
+ 
+Hi Govendan,
+ 
+What`s the progress on the release? Also, updated schedule?
+Next week, we have monthly and look back meeting!
+ 
+Best Regards,
+Renjith Veliyath (レンジ)
+内線: 6-24-20842, Desk : +81-48-661-3701
+E-mail: veliyath.renjith@marelli.com / URL: https://marelli.com
+ 
+ 
+From: P GOVENDAN P GOVENDAN <govendan.p@marelli.com> 
+Sent: Monday, January 11, 2021 8:43 PM
+To: RENJITH VELIYATH レンジット ヴェリヤス <veliyath.renjith@marelli.com>
+Cc: JAYACHANDRAN SASIKUMAR じゃやちゃんどらん さしくまある <sasikumar.jayachandran@marelli.com>; RAJENDRAN MANIMEKALA ラジェンドラン マニメカラ <manimekala.rajendran@marelli.com>
+Subject: Reg:Release_Plan
+ 
+Dear Renjith,
+ 
+Release Plan:
+Multiple models(Now 5 Models) testing is in work in progress. We have to check work products are moving or not in deploy folder. Earlier it was in problem.
+Now we modified implementation and have to confirm with deploy PC.(Please connect Deploy PC) 
+ 
+Once checking is done, we will deliver it soon.
+ 
+Thanks and Regards,
+P.Govendan
+ 
+ 
+________________________________________
+From: P GOVENDAN P GOVENDAN <govendan.p@marelli.com>
+Sent: 06 January 2021 17:50
+To: RENJITH VELIYATH レンジット ヴェリヤス <veliyath.renjith@marelli.com>
+Cc: JAYACHANDRAN SASIKUMAR じゃやちゃんどらん さしくまある <sasikumar.jayachandran@marelli.com>; Dominic Raj Susainathan <Dominicraj.S@Ltts.com>; VIJAYAKUMAR PREMNATH ビジャヤクマール プレムナス <premnath.vijayakumar@marelli.com>; RAJENDRAN MANIMEKALA ラジェンドラン マニメカラ <manimekala.rajendran@marelli.com>
+Subject: Re: Reg: WSR-Week-52&Week-53 
+ 
+Dear Renjith,
+ 
+Schedule is updated in Embed excel file.
+Removed previous release callouts in chart. Actually I planned to update from this week-01'2021. Also in excel sheet we have new tasks already.
+For Release Plan:
+Multiple models(5Models now) in single folder testing almost done. Have to check work products in deploy PC. Please connect it tomorrow.
+Will release updated scripts by tomorrow EOD.
+ 
+I have revert back my PC to Marelli network so please add marelli mail id for further communications.
+ 
+Thanks for understanding. Kindly let me know any clarifications.
+ 
+Regards,
+P.Govendan
+ 
+ 
+ 
+________________________________________
+From: VIJAYAKUMAR PREMNATH ビジャヤクマール プレムナス <premnath.vijayakumar@marelli.com>
+Sent: 06 January 2021 15:13
+To: P GOVENDAN P GOVENDAN <govendan.p@marelli.com>
+Subject: FW: Reg: WSR-Week-52&Week-53 
+ 
+ 
+ 
+Thanks & Regards,
+ 
+PREM (プレム)
+ 
+Premnath V
+Engineer – E&E (Hardware)
+CECI-L&T
+ 
+Desk: +91-44-66301591
+Mobile: +91-9962566517
+ 
+From: RENJITH VELIYATH レンジット ヴェリヤス <veliyath.renjith@marelli.com> 
+Sent: Wednesday, January 6, 2021 1:37 PM
+To: Govendan Perumal <govendan.perumal@ltts.com>; Premnath V. <Premnath.V@Ltts.com>; VIJAYAKUMAR PREMNATH ビジャヤクマール プレムナス <premnath.vijayakumar@marelli.com>
+Cc: Sasikumar Jayachandran <Sasikumar.J@Ltts.com>; Dominic Raj Susainathan <Dominicraj.S@Ltts.com>; Manimekala Rajendran <Manimekala.Rajendran@Ltts.com>
+Subject: RE: Reg: WSR-Week-52&Week-53
+ 
+Dear Govendan,
+ 
+Embedded excel schedule is not updated, with any of the new tasks.
+1.      Please update it.
+2.      Remove the items before Step2 Release with JMAABV5.1 from Gantt chart..and add new mile stones..
+ 
+Regards,
+Renjith 
+ 
+ 
+From: Govendan Perumal <govendan.perumal@ltts.com> 
+Sent: Monday, January 4, 2021 3:43 PM
+To: Premnath V. <Premnath.V@Ltts.com>; VIJAYAKUMAR PREMNATH ビジャヤクマール プレムナス <premnath.vijayakumar@marelli.com>; RENJITH VELIYATH レンジット ヴェリヤス <veliyath.renjith@marelli.com>
+Cc: Sasikumar Jayachandran <Sasikumar.J@Ltts.com>; Dominic Raj Susainathan <Dominicraj.S@Ltts.com>; Manimekala Rajendran <Manimekala.Rajendran@Ltts.com>
+Subject: Reg: WSR-Week-52&Week-53
+ 
+Dear Renjith
+ 
+Herewith attached EES WSR for Week-52 and week-53.
+Kindly let me know any clarifications.
+ 
+ 
+Thank you.
+ 
+Warm Regards,
+________________________________________________________
+Govendan Perumal,
+Specialist -Transportation,
+L&T TECHNOLOGY SERVICES LIMITED
+DLF IT SEZ Park, 3rd Block, 3rd Floor, Mount Poonamallee Road,
+Manapakkam, Chennai, Tamilnadu, India. Postal– 600089.
+________________________________________________________
+ 
+Tel: +91 44 6630 1640 | Mobile: +91 99417 10236
+www.ltts.com
+ 
+ 
+________________________________________
+From: Govendan Perumal <govendan.perumal@ltts.com>
+Sent: Sunday, December 27, 2020 11:18 PM
+To: Premnath V. <Premnath.V@Ltts.com>; VIJAYAKUMAR PREMNATH ビジャヤクマール プレムナス <premnath.vijayakumar@marelli.com>
+Cc: Sasikumar Jayachandran <Sasikumar.J@Ltts.com>; Dominic Raj Susainathan <Dominicraj.S@Ltts.com>; Manimekala Rajendran <Manimekala.Rajendran@Ltts.com>
+Subject: Reg: WSR-Week-52 
+ 
+Dear Premnath,
+ 
+PFA WSR for EES-week-52.
+Kindly let me know any clarifications.
+ 
+ 
+Thank you.
+ 
+Warm Regards,
+________________________________________________________
+Govendan Perumal,
+Specialist -Transportation,
+L&T TECHNOLOGY SERVICES LIMITED
+DLF IT SEZ Park, 3rd Block, 3rd Floor, Mount Poonamallee Road,
+Manapakkam, Chennai, Tamilnadu, India. Postal– 600089.
+________________________________________________________
+ 
+Tel: +91 44 6630 1640 | Mobile: +91 99417 10236
+www.ltts.com
+ 
+ 
+________________________________________
+From: Govendan Perumal <govendan.perumal@ltts.com>
+Sent: Friday, December 18, 2020 6:08 PM
+To: veliyath.renjith@marelli.com <veliyath.renjith@marelli.com>
+Cc: Sasikumar Jayachandran <Sasikumar.J@Ltts.com>; Dominic Raj Susainathan <Dominicraj.S@Ltts.com>; Manimekala Rajendran <Manimekala.Rajendran@Ltts.com>; VIJAYAKUMAR PREMNATH ビジャヤクマール プレムナス <premnath.vijayakumar@marelli.com>; Premnath V. <Premnath.V@Ltts.com>
+Subject: Reg: WSR-Week-51 
+ 
+Dear Renjith,
+ 
+         Herewith attached WSR for EES-Week-51.PFA.
+         Kindly let me know any clarifications.
+ 
+Thank you.
+ 
+Warm Regards,
+________________________________________________________
+Govendan Perumal,
+Specialist -Transportation,
+L&T TECHNOLOGY SERVICES LIMITED
+DLF IT SEZ Park, 3rd Block, 3rd Floor, Mount Poonamallee Road,
+Manapakkam, Chennai, Tamilnadu, India. Postal– 600089.
+________________________________________________________
+ 
+Tel: +91 44 6630 1640 | Mobile: +91 99417 10236
+www.ltts.com
+ 
+ 
+________________________________________
+From: Govendan Perumal <govendan.perumal@ltts.com>
+Sent: Saturday, November 28, 2020 6:59 PM
+To: veliyath.renjith@marelli.com <veliyath.renjith@marelli.com>
+Cc: Sasikumar Jayachandran <Sasikumar.J@Ltts.com>; Dominic Raj Susainathan <Dominicraj.S@Ltts.com>; Manimekala Rajendran <Manimekala.Rajendran@Ltts.com>; VIJAYAKUMAR PREMNATH ビジャヤクマール プレムナス <premnath.vijayakumar@marelli.com>; Premnath V. <Premnath.V@Ltts.com>
+Subject: Re: Reg: WSR-Week-48 
+ 
+Dear Renjith,
+ 
+         Herewith attached WSR for EES-Week-48.PFA.
+         Kindly let me know any clarifications.
+ 
+Thank you.
+ 
+Warm Regards,
+________________________________________________________
+Govendan Perumal,
+Specialist -Transportation,
+L&T TECHNOLOGY SERVICES LIMITED
+DLF IT SEZ Park, 3rd Block, 3rd Floor, Mount Poonamallee Road,
+Manapakkam, Chennai, Tamilnadu, India. Postal– 600089.
+________________________________________________________
+ 
+Tel: +91 44 6630 1640 | Mobile: +91 99417 10236
+www.ltts.com
+ 
+ 
+________________________________________
+From: Govendan Perumal <govendan.perumal@ltts.com>
+Sent: Monday, November 23, 2020 12:01 AM
+To: veliyath.renjith@marelli.com <veliyath.renjith@marelli.com>
+Cc: Sasikumar Jayachandran <Sasikumar.J@Ltts.com>; Dominic Raj Susainathan <Dominicraj.S@Ltts.com>; Manimekala Rajendran <Manimekala.Rajendran@Ltts.com>; VIJAYAKUMAR PREMNATH ビジャヤクマール プレムナス <premnath.vijayakumar@marelli.com>; Premnath V. <Premnath.V@Ltts.com>
+Subject: Reg: WSR-Week-47 
+ 
+Dear Renjith,
+ 
+         Herewith attached WSR for EES-Week-47.PFA.
+         Kindly let me know any clarifications.
+ 
+Thank you.
+ 
+Warm Regards,
+________________________________________________________
+Govendan Perumal,
+Specialist -Transportation,
+L&T TECHNOLOGY SERVICES LIMITED
+DLF IT SEZ Park, 3rd Block, 3rd Floor, Mount Poonamallee Road,
+Manapakkam, Chennai, Tamilnadu, India. Postal– 600089.
+________________________________________________________
+ 
+Tel: +91 44 6630 1640 | Mobile: +91 99417 10236
+www.ltts.com
+ 
+ 
+________________________________________
+From: Govendan Perumal <govendan.perumal@ltts.com>
+Sent: Sunday, November 15, 2020 9:49 PM
+To: veliyath.renjith@marelli.com <veliyath.renjith@marelli.com>
+Cc: Sasikumar Jayachandran <Sasikumar.J@Ltts.com>; Dominic Raj Susainathan <Dominicraj.S@Ltts.com>; Manimekala Rajendran <Manimekala.Rajendran@Ltts.com>; VIJAYAKUMAR PREMNATH ビジャヤクマール プレムナス <premnath.vijayakumar@marelli.com>; Premnath V. <Premnath.V@Ltts.com>
+Subject: Reg: WSR-Week-46 
+ 
+
+Dear Renjith,
+ 
+         Herewith attached WSR for EES-Week-46.PFA.
+         Kindly let me know any clarifications.
+ 
+ 
+Thank you.
+ 
+Warm Regards,
+________________________________________________________
+Govendan Perumal,
+Specialist -Transportation,
+L&T TECHNOLOGY SERVICES LIMITED
+DLF IT SEZ Park, 3rd Block, 3rd Floor, Mount Poonamallee Road,
+Manapakkam, Chennai, Tamilnadu, India. Postal– 600089.
+________________________________________________________
+ 
+Tel: +91 44 6630 1640 | Mobile: +91 99417 10236
+www.ltts.com
+ 
+ 
+________________________________________
+From: Govendan Perumal <govendan.perumal@ltts.com>
+Sent: Sunday, November 8, 2020 11:43 PM
+To: veliyath.renjith@marelli.com <veliyath.renjith@marelli.com>
+Cc: Sasikumar Jayachandran <Sasikumar.J@Ltts.com>; Dominic Raj Susainathan <Dominicraj.S@Ltts.com>; Manimekala Rajendran <Manimekala.Rajendran@Ltts.com>; VIJAYAKUMAR PREMNATH ビジャヤクマール プレムナス <premnath.vijayakumar@marelli.com>; Premnath V. <Premnath.V@Ltts.com>
+Subject: Reg: WSR-Week-45 
+ 
+Dear Renjith,
+ 
+         Herewith attached WSR for EES-Week-45.PFA.
+         Kindly let me know any clarifications.
+ 
+ 
+Thank you.
+ 
+Warm Regards,
+________________________________________________________
+Govendan Perumal,
+Specialist -Transportation,
+L&T TECHNOLOGY SERVICES LIMITED
+DLF IT SEZ Park, 3rd Block, 3rd Floor, Mount Poonamallee Road,
+Manapakkam, Chennai, Tamilnadu, India. Postal– 600089.
+________________________________________________________
+ 
+Tel: +91 44 6630 1640 | Mobile: +91 99417 10236
+www.ltts.com
+ 
+ 
+________________________________________
+From: Govendan Perumal <govendan.perumal@ltts.com>
+Sent: Sunday, November 8, 2020 11:42 PM
+To: veliyath.renjith@marelli.com <veliyath.renjith@marelli.com>
+Cc: Sasikumar Jayachandran <Sasikumar.J@Ltts.com>; Dominic Raj Susainathan <Dominicraj.S@Ltts.com>; Manimekala Rajendran <Manimekala.Rajendran@Ltts.com>; VIJAYAKUMAR PREMNATH ビジャヤクマール プレムナス <premnath.vijayakumar@marelli.com>; Premnath V. <Premnath.V@Ltts.com>
+Subject: Re: Reg: WSR-Week-43 
+ 
+Dear Renjith,
+ 
+         Herewith attached WSR for EES-Week-43.PFA.
+         Kindly let me know any clarifications.
+ 
+Thank you.
+ 
+Warm Regards,
+________________________________________________________
+Govendan Perumal,
+Specialist -Transportation,
+L&T TECHNOLOGY SERVICES LIMITED
+DLF IT SEZ Park, 3rd Block, 3rd Floor, Mount Poonamallee Road,
+Manapakkam, Chennai, Tamilnadu, India. Postal– 600089.
+________________________________________________________
+ 
+Tel: +91 44 6630 1640 | Mobile: +91 99417 10236
+www.ltts.com
+ 
+ 
+________________________________________
+From: Govendan Perumal <govendan.perumal@ltts.com>
+Sent: Saturday, October 24, 2020 8:40 PM
+To: veliyath.renjith@marelli.com <veliyath.renjith@marelli.com>
+Cc: Sasikumar Jayachandran <Sasikumar.J@Ltts.com>; Dominic Raj Susainathan <Dominicraj.S@Ltts.com>; Manimekala Rajendran <Manimekala.Rajendran@Ltts.com>; premnath.vijayakumar@marelli.com <premnath.vijayakumar@marelli.com>; Premnath V. <Premnath.V@Ltts.com>
+Subject: Reg: WSR-Week-43 
+ 
+
+Dear Renjith,
+ 
+         Herewith attached WSR for EES-Week-43.PFA.
+         Kindly let me know any clarifications.
+ 
+ 
+Thank you.
+ 
+Warm Regards,
+________________________________________________________
+Govendan Perumal,
+Specialist -Transportation,
+L&T TECHNOLOGY SERVICES LIMITED
+DLF IT SEZ Park, 3rd Block, 3rd Floor, Mount Poonamallee Road,
+Manapakkam, Chennai, Tamilnadu, India. Postal– 600089.
+________________________________________________________
+ 
+Tel: +91 44 6630 1640 | Mobile: +91 99417 10236
+www.ltts.com
+ 
+ 
+________________________________________
+From: Govendan Perumal <govendan.perumal@ltts.com>
+Sent: Friday, October 16, 2020 4:17 PM
+To: Premnath V. <Premnath.V@Ltts.com>; premnath.vijayakumar@marelli.com <premnath.vijayakumar@marelli.com>
+Cc: Sasikumar Jayachandran <Sasikumar.J@Ltts.com>; Dominic Raj Susainathan <Dominicraj.S@Ltts.com>; Manimekala Rajendran <Manimekala.Rajendran@Ltts.com>
+Subject: Re: WSR - Week-42 
+ 
+Dear Premnath,
+ 
+         Herewith attached EES-Week-42 WSR for your reference. PFA.
+         Kindly let me know any clarifications.
+ 
+ 
+ 
+Thank you.
+ 
+Warm Regards,
+________________________________________________________
+Govendan Perumal,
+Specialist -Transportation,
+L&T TECHNOLOGY SERVICES LIMITED
+DLF IT SEZ Park, 3rd Block, 3rd Floor, Mount Poonamallee Road,
+Manapakkam, Chennai, Tamilnadu, India. Postal– 600089.
+________________________________________________________
+ 
+Tel: +91 44 6630 1640 | Mobile: +91 99417 10236
+www.ltts.com
+ 
+ 
+________________________________________
+From: Govendan Perumal <govendan.perumal@ltts.com>
+Sent: Sunday, October 11, 2020 12:07 AM
+To: Premnath V. <Premnath.V@Ltts.com>
+Cc: Sasikumar Jayachandran <Sasikumar.J@Ltts.com>
+Subject: Re: WSR - Week 39 
+ 
+Dear Premnath,
+ 
+         Herewith attached EES-Week-41 WSR for your reference. PFA.
+         Kindly let me know any clarifications.
+ 
+Thank you.
+ 
+ 
+ 
+Thank you.
+ 
+Warm Regards,
+________________________________________________________
+Govendan Perumal,
+Specialist -Transportation,
+L&T TECHNOLOGY SERVICES LIMITED
+DLF IT SEZ Park, 3rd Block, 3rd Floor, Mount Poonamallee Road,
+Manapakkam, Chennai, Tamilnadu, India. Postal– 600089.
+________________________________________________________
+ 
+Tel: +91 44 6630 1640 | Mobile: +91 99417 10236
+www.ltts.com
+ 
+________________________________________
+From: Govendan Perumal <govendan.perumal@ltts.com>
+Sent: Sunday, October 4, 2020 11:55 AM
+To: Premnath V. <Premnath.V@Ltts.com>
+Cc: Sasikumar Jayachandran <Sasikumar.J@Ltts.com>
+Subject: Re: WSR - Week 39 
+ 
+Dear Premnath,
+ 
+         Herewith attached EES-Week-40 WSR for your reference. PFA.
+         Kindly let me know any clarifications.
+ 
+Thank you.
+ 
+Warm Regards,
+________________________________________________________
+Govendan Perumal,
+Specialist -Transportation,
+L&T TECHNOLOGY SERVICES LIMITED
+DLF IT SEZ Park, 3rd Block, 3rd Floor, Mount Poonamallee Road,
+Manapakkam, Chennai, Tamilnadu, India. Postal– 600089.
+________________________________________________________
+ 
+Tel: +91 44 6630 1640 | Mobile: +91 99417 10236
+www.ltts.com
+ 
+________________________________________
+From: Govendan Perumal <govendan.perumal@ltts.com>
+Sent: Sunday, September 27, 2020 5:49 PM
+To: Premnath V. <Premnath.V@Ltts.com>
+Cc: Sasikumar Jayachandran <Sasikumar.J@Ltts.com>
+Subject: Re: WSR - Week 39 
+ 
+Dear Premnath,
+ 
+         Herewith attached EES-Week39 WSR for your reference. PFA.
+        Kindly let me know any clarifications.
+ 
+        Regret for late reply.
+ 
+Thank you.
+ 
+Warm Regards,
+________________________________________________________
+Govendan Perumal,
+Specialist -Transportation,
+L&T TECHNOLOGY SERVICES LIMITED
+DLF IT SEZ Park, 3rd Block, 3rd Floor, Mount Poonamallee Road,
+Manapakkam, Chennai, Tamilnadu, India. Postal– 600089.
+________________________________________________________
+ 
+Tel: +91 44 6630 1640 | Mobile: +91 99417 10236
+www.ltts.com
+ 
+ 
+________________________________________
+From: Premnath V. <Premnath.V@Ltts.com>
+Sent: Sunday, September 27, 2020 11:41 AM
+To: Govendan Perumal <govendan.perumal@ltts.com>; Balachandar Varatharaj <balachandar.varatharaj@Ltts.com>; Rajeswaran Ramasamy <Rajeswaran.R@Ltts.com>; K Peer Rabani <k.peerrabani@Ltts.com>
+Cc: Sasikumar Jayachandran <Sasikumar.J@Ltts.com>
+Subject: Re: WSR - Week 39 
+ 
+Team. I have not received the details yet.
+Please send ASAP.
+Regards,
+Prem.
+- - - Sent from Mobile device. Please excuse any typo-errors. - - -
+ 
+________________________________________
+From: Premnath V.
+Sent: Friday, September 25, 2020 11:25:15 PM
+To: Govendan Perumal <govendan.perumal@ltts.com>; Balachandar Varatharaj <balachandar.varatharaj@Ltts.com>; Rajeswaran Ramasamy <Rajeswaran.R@Ltts.com>; K Peer Rabani <k.peerrabani@Ltts.com>
+Cc: Sasikumar Jayachandran <Sasikumar.J@Ltts.com>
+Subject: WSR - Week 39 
+ 
+Dear Team,
+ 
+Please fill the WSR, Raw datasheets & Weekly activities for this week and send ASAP.
+ 
+Regards,
+Prem.
+L&T Technology Services Ltd
+www.LTTS.com
+L&T Technology Services Limited (LTTS) is committed to safeguard your data privacy. For more information to view our commitment towards data privacy under GDPR, please visit the privacy policy on our website www.Ltts.com. This Email may contain confidential or privileged information for the intended recipient (s). If you are not the intended recipient, please do not use or disseminate the information, notify the sender and delete it from your system.
+L&T Technology Services Ltd
+www.LTTS.com
+L&T Technology Services Limited (LTTS) is committed to safeguard your data privacy. For more information to view our commitment towards data privacy under GDPR, please visit the privacy policy on our website www.Ltts.com. This Email may contain confidential or privileged information for the intended recipient (s). If you are not the intended recipient, please do not use or disseminate the information, notify the sender and delete it from your system.
+ 
